@@ -1,0 +1,19 @@
+canvas {
+  border: 0px solid gray;
+  height: 70vmin;
+  width: 70vmin;
+  top: 15vmin;
+  left: calc(50% - 35vmin);
+  position: relative;
+}
+
+#button {
+  height: clamp(100px, 10vmin, 200px);
+  width: clamp(100px, 10vmin, 200px);
+  border: 1px solid #aaa;
+  background: #fff;
+  top: 40vmin;
+  left: calc(50% - 5vmin);
+  position: absolute;
+  cursor: crosshair;
+}
